@@ -17,12 +17,14 @@ The planned customer journey includes service and provider discovery, profiles a
 
 The design separates client, provider, spa, and administrative responsibilities. Each role has a distinct view of the information and actions needed for its work, while shared booking records keep the appointment lifecycle connected from request to completion.
 
-## Mobile concept
+## Mobile screen concepts
 
 <p align="center">
-  <img src="assets/booking-request-concept.jpg" width="340" alt="Massera mobile booking-request design concept">
+  <img src="assets/client-home-concept.jpg" width="240" alt="Massera client home screen concept">
+  <img src="assets/booking-request-concept.jpg" width="240" alt="Massera booking request screen concept">
+  <img src="assets/therapist-discovery-concept.jpg" width="240" alt="Massera therapist discovery screen concept">
 </p>
-<p align="center"><sub>Design concept from the project reference screens, not a production app capture.</sub></p>
+<p align="center"><sub>Client home, booking request, and therapist discovery design concepts from the project materials. These are design references, not production app captures.</sub></p>
 
 ## Engineering
 
