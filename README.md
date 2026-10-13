@@ -13,7 +13,7 @@ Its initial market focus is Nigeria, with the product structure designed to acco
 - **Spa teams** can coordinate services, schedules, and client interactions through dedicated workspaces.
 - **Administrators** can support marketplace operations through a separate web console.
 
-The planned customer journey includes service and provider discovery, profiles and reviews, scheduling, booking details, checkout, notifications, and follow-up. Provider and spa workflows are kept distinct from client discovery, while shared booking records connect the steps.
+The planned customer journey includes service and provider discovery, profiles and reviews, location and availability selection, scheduling, booking details, checkout, notifications, and follow-up. A client can search by service or therapist, choose a time, and keep the appointment details in one place. Providers and spa teams need their own operational views so booking requests and service delivery do not depend on the client-facing screens.
 
 ## Mobile concept
 
@@ -26,7 +26,7 @@ The planned customer journey includes service and provider discovery, profiles a
 
 The platform combines a Flutter mobile application, a Next.js administration experience, and Supabase-backed data and server workflows. The repository is organized into mobile and web apps, shared Flutter packages for design, models, validation, and Supabase access, plus database migrations and server functions.
 
-Security boundaries are important for a booking marketplace. Sensitive account, booking, payment, provider-verification, and administrative actions belong in trusted server-side workflows rather than in the client app.
+Sensitive account, booking, payment, provider-verification, address, and administrative actions belong in trusted server-side workflows rather than in the client app. Payments for real-world services are treated as marketplace payments, distinct from digital subscription or in-app feature billing. Money amounts use minor units and are ledgered for reliable reconciliation.
 
 ## Technology
 
